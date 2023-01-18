@@ -1,0 +1,15 @@
+﻿-- drop database ChatDB;
+create database ChatDB;
+use ChatDB;
+
+create table tb_chat (
+	id_chat			int primary key auto_increment,
+    nm_aluno		varchar(100),
+    ds_turma		varchar(100),
+    ds_mensagem		varchar(500),
+    dt_inclusao		datetime
+);
+
+describe tb_chat;
+
+select * from tb_chat;

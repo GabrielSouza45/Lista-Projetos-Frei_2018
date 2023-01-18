@@ -1,0 +1,51 @@
+﻿create database InscricaoDB;
+use InscricaoDB;
+
+
+create table tb_inscricao
+(
+	id_inscricao		int	primary key auto_increment,
+    nm_pessoa			varchar(100),
+    nm_faculdade		varchar(200)
+);
+
+
+-- EXEMPLO DE CRUD ABAIXO --
+
+-- CREATE: Inserindo Registros
+INSERT INTO tb_inscricao (nm_pessoa, nm_faculdade)
+	 VALUES ('Bruno', 'FIAP - MBA em BigData');
+
+
+
+-- READ: Consultando registros
+SELECT *
+  FROM tb_inscricao;
+
+SELECT *
+  FROM tb_inscricao
+ WHERE nm_pessoa = 'Bruno';
+
+SELECT *
+  FROM tb_inscricao
+ WHERE nm_faculdade like '%Fiap%';
+
+
+
+-- UPDATE: Alterando registros        
+UPDATE tb_inscricao
+   SET nm_pessoa    = 'Bruno de Oliveira'
+ WHERE id_inscricao = 1;
+ 
+
+
+-- DELETE: Apagando registros
+DELETE FROM tb_inscricao
+	  WHERE id_inscricao = 1;
+
+
+
+
+
+
+

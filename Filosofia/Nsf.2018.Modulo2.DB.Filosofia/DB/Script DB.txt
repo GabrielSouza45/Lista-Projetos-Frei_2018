@@ -1,0 +1,40 @@
+﻿create database FilosofiaDB;
+
+use FilosofiaDB;
+
+create table tb_filosofia (
+	id_filosofia		int primary key auto_increment,
+    nm_autor			varchar(100),
+    ds_mensagem			varchar(4000)
+);
+
+describe tb_filosofia;
+select * from tb_filosofia;
+
+
+INSERT INTO `tb_filosofia` (nm_autor, ds_mensagem) VALUES 
+('M. de Assis','No meio do caminho tinha uma pedra\r\nTinha uma pedra no meio do caminho\r\nTinha uma pedra\r\nNo meio do caminho tinha uma pedra\r\n\r\nNunca me esquecerei desse acontecimento\r\nNa vida de minhas retinas tão fatigadas\r\nNunca me esquecerei que no meio do caminho\r\nTinha uma pedra\r\nTinha uma pedra no meio do caminho\r\nNo meio do caminho tinha uma pedra.\r\n'),
+('M. de Assis','..Fecha os olhos e esquece.\r\nEscuta a água nos vidros,\r\ntão calma, não anuncia nada.\r\nEntretanto escorre nas mãos,\r\ntão calma! Vai inundando tudo...\r\nRenascerão as cidades submersas?\r\nOs homens submersos - voltarão?...\r\n\r\nMundo Grande'),
+('M. de Assis','Que pode uma criatura senão,\r\nEntre criaturas, amar?\r\nAmar e esquecer, amar e malamar,\r\nAmar, desamar, amar?\r\nSempre, e até de olhos vidrados, amar?\r\nQue pode, pergunto, o ser amoroso,\r\nSozinho, em rotação universal, senão\r\nRodar também, e amar?...\r\n\r\nAmar'),
+('M. de Assis','A minha idéa, depois de tantas cabriolas, constituíra-se idéa fixa. Deus te livre, leitor, de uma idéa fixa; antes um argueiro, antes uma trave no olho.\r\n..Era fixa a minha idéa, fixa como... Não me ocorre nada que seja assaz fixo nesse mundo: talvez a lua, talvez as pirâmides do Egito..\r\n\r\nIdéia Fixa'),
+('Jesus Cristo','Bem-aventurados os pobres de espírito, porque deles é o reino dos céus.\r\n\r\nSermão do Monte'),
+('Jesus Cristo','Bem-aventurados os que choram, porque eles serão consolados.\r\n\r\nSermão do Monte'),
+('Jesus Cristo','Bem-aventurados os mansos, porque eles herdarão a terra.\r\n\r\nSermão do Monte'),
+('Jesus Cristo','Bem-aventurados os que têm fome e sede de justiça, porque eles serão fartos.\r\n\r\nSermão do Monte'),
+('Jesus Cristo','Bem-aventurados os misericordiosos, porque eles alcançarão misericórdia.\r\n\r\nSermão do Monte'),
+('Jesus Cristo','Bem-aventurados os puros de coração, porque eles verão a Deus.\r\n\r\nSermão do Monte'),
+('Jesus Cristo','Bem-aventurados os pacificadores, porque eles serão chamados filhos de Deus.\r\n\r\nSermão do Monte'),
+('Jesus Cristo','Bem-aventurados os que sofrem perseguição por causa da justiça, porque deles é o reino dos céus.\r\n\r\nSermão do Monte'),
+('Sócrates','Conhece-te a ti mesmo.\r\n'),
+('Sócrates','Só sei que nada sei.\r\n'),
+('Sócrates','Existe apenas um bem, o saber, e apenas um mal, a ignorância.\r\n'),
+('Buda','Simples! É você que controla a sua mente, se você acreditar e lutar pelo que quer, você conseguirá atingir tudo o que pretende.\r\n'),
+('Buda','Seus inimigos podem tentar te magoar, mas se você não acreditar em você mesmo, é você quem está deixando eles te derrubarem.\r\n'),
+('Buda','O tempo mais importante é agora - não o passado nem o futuro. Agora!\r\n'),
+('J.J. Rousseau','Geralmente aqueles que sabem pouco falam muito e aqueles que sabem muito falam pouco.\r\n'),
+('J.J. Rousseau','Só entende o valor do silêncio quem tem necessidade de calar para não ferir alguém.\r\n'),
+('J.J. Rousseau','O homem nasceu livre e por toda a parte vive acorrentado.\r\n'),
+('Einstein','A imaginação é mais importante que o conhecimento.\r\n'),
+('Einstein','Penso noventa e nove vezes e nada descubro; deixo de pensar, mergulho em profundo silêncio - e eis que a verdade se me revela.\r\n'),
+('Einstein','Deus é a lei e o legislador do Universo.\r\n'),
+('Einstein','A luta pela verdade deve ter precedência sobre todas as outras.\r\n');

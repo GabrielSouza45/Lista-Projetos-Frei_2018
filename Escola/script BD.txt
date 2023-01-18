@@ -1,0 +1,32 @@
+use EscolaDB;
+
+
+
+create database EscolaDB;
+
+
+
+create table tb_curso (
+	
+	id_curso integer primary key auto_increment,
+
+	nm_curso varchar(50),
+
+	ds_sigla varchar(10),
+	nr_maximo_alunos integer,
+
+	vl_avaliacao decimal(15, 2),
+    
+	bt_ativo bool,
+    
+	dt_inclusao datetime
+
+);
+
+
+
+describe tb_curso;
+
+
+
+select * from tb_curso;

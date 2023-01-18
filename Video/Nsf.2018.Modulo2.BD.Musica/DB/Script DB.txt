@@ -1,0 +1,20 @@
+﻿-- drop database FilmeDB;
+create database FilmeDB;
+use FilmeDB;
+
+create table tb_filme (
+	id_filme		int primary key auto_increment,
+    nm_filme		varchar(100),
+    ds_sinopse		varchar(900),
+    ds_categoria	varchar(100),
+    ds_caminho		varchar(200),
+    vl_avaliacao	decimal(15,2),
+	vl_duracao		decimal(15,2),
+    qt_temporadas	int,
+    bt_maioridade	bool,
+    dt_lancamento	datetime
+);
+
+describe tb_filme;
+
+select * from tb_filme;

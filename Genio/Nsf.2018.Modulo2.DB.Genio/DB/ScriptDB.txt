@@ -1,0 +1,11 @@
+﻿create database DesejoDB;
+use DesejoDB;
+
+create table tb_desejo (
+	id_desejo int primary key auto_increment,
+	ds_desejo	  varchar(400)
+);
+
+describe tb_desejo;
+
+select * from tb_desejo;

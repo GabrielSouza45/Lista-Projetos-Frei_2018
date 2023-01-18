@@ -1,0 +1,28 @@
+﻿create database MusicaDB;
+use MusicaDB;
+
+create table tb_musica (
+	id_musica	int primary key auto_increment,
+    nm_musica	varchar(100),
+    ds_banda	varchar(100),
+	ds_album	varchar(100),
+    ds_caminho	varchar(100),
+    ds_genero	varchar(50),
+    vl_duracao	decimal(15,2),
+    dt_lancamento	datetime
+);
+
+describe tb_musica;
+select * from tb_musica;
+
+
+create table tb_login (
+	id_login	int primary key auto_increment,
+    nm_usuario	varchar(100),
+    ds_senha	varchar(100)
+);
+
+insert into tb_login (nm_usuario, ds_senha)
+			  values ('bruno', '123');
+              
+select * from tb_login;

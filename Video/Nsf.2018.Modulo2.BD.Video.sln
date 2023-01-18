@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nsf.2018.Modulo2.BD.Video", "Nsf.2018.Modulo2.BD.Musica\Nsf.2018.Modulo2.BD.Video.csproj", "{49E6D846-048F-4871-8EA0-E69381B24435}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49E6D846-048F-4871-8EA0-E69381B24435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E6D846-048F-4871-8EA0-E69381B24435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E6D846-048F-4871-8EA0-E69381B24435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E6D846-048F-4871-8EA0-E69381B24435}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8AC10FC-91FD-441D-A2C6-EF7332BA2453}
+	EndGlobalSection
+EndGlobal

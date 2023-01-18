@@ -1,0 +1,13 @@
+﻿create database PensamentoDB;
+use PensamentoDB;
+
+create table tb_pensamento (
+	id_pensamento int primary key auto_increment,
+	nm_nick		  varchar(100),
+	ds_pensamento varchar(100),
+	ds_gposocial  varchar(100)
+);
+
+describe tb_pensamento;
+
+select * from tb_pensamento;
